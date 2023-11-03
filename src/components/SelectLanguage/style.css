@@ -1,0 +1,15 @@
+.select_language_container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.select_language_container img {
+    max-height: 48px;
+    cursor: pointer;
+}
+
+
+.desactive {
+    filter: grayscale(1);
+}

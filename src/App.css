@@ -1,0 +1,48 @@
+.about_me {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+
+.about_me>div:nth-child(2) p {
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.about_me>div:nth-child(2) {
+    flex: 1;
+}
+
+
+@-webkit-keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
+mark {
+    font-weight: 700;
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+    animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, yellow 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+}
+
+.about_me_ufc {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_me_ufc img {
+    max-width: 300px;
+}

@@ -1,0 +1,27 @@
+.layout_header_midiaLinks_container {
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.layout_header_midiaLinks_container svg {
+    cursor: pointer;
+}
+
+.instagram svg:hover {
+    border-radius: 6px;
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.linkedin svg:hover {
+    color: #0074a6;
+}
+
+.gmail svg:hover {
+    color: #dc2743;
+}
+
+.github svg:hover {
+    color: rgb(139, 130, 130);
+}

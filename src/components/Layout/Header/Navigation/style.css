@@ -1,0 +1,15 @@
+.layout_header_navigation_container {
+    display: flex;
+    gap: 60px;
+    font-weight: 300;
+    color: white;
+}
+
+.layout_header_navigation_container span {
+    cursor: pointer;
+}
+
+.layout_header_navigation_container span:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+}

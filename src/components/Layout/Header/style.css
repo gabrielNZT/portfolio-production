@@ -1,0 +1,16 @@
+.layout_header_container {
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.layout_header_button_github {
+    background-color: #3e8cf6;
+}
